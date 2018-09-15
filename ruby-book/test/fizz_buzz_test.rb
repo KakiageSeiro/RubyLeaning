@@ -9,6 +9,11 @@ require './lib/fizz_buzz'
 
 class FizzBuzzTest < Minitest::Test
   def test_fizzbuzz
+
+    # # デバッグ用。対話形式のデバッグ用gemをこの地点で起動する
+    # require 'byebug'
+    # byebug
+
     assert_equal '1', fizz_buzz(1)
     assert_equal '2', fizz_buzz(2)
     assert_equal 'fizz', fizz_buzz(3)

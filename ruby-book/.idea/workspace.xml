@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c786a4a-aa61-4477-8454-fa84b2d814f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yuta.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/atmarkTest.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bank.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/convert_hash_syntax.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/convert_length.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/deep_freezable.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/effects.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gate.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/regexp_checker.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/rgb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sample.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/sample_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/team.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ticket.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/word_synth.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/convert_length_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/deep_freezable_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/effects_test.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/fizz_buzz_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gete_test.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/rgb_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/word_synth_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +35,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby_book@fizz_buzz.rcov" NAME="fizz_buzz Coverage Results" MODIFIED="1533974220833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="ruby-book" />
-    <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_hash_syntax_test___ruby_book.rcov" NAME="Run test 'convert_hash_syntax_test': ruby-book Coverage Results" MODIFIED="1535266767753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_hash_syntax_test___ruby_book.rcov" NAME="Run test  ruby-book Coverage Results" MODIFIED="1536227615641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__ruby_book.rcov" NAME="Run test  ruby-book Coverage Results" MODIFIED="1536510092867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-book" />
+    <SUITE FILE_PATH="coverage/ruby_book@sample.rcov" NAME="sample Coverage Results" MODIFIED="1536645137096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="ruby-book" />
+    <SUITE FILE_PATH="coverage/ruby_book@regexp_checker.rcov" NAME="regexp_checker Coverage Results" MODIFIED="1536745355266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="ruby-book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.rcov" NAME="Run test 'fizz_buzz_test': ruby-book Coverage Results" MODIFIED="1534323661813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book__1_.rcov" NAME="Run test 'fizz_buzz_test': ruby-book (1) Coverage Results" MODIFIED="1534324138819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-book" />
     <SUITE FILE_PATH="coverage/ruby_book@fizzbuzz.rcov" NAME="fizzbuzz Coverage Results" MODIFIED="1533973985617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="ruby-book" />
@@ -65,60 +82,66 @@
     <session id="-1979829085">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rb" value="2352" />
+          <entry key="rb" value="6185" />
           <entry key="vmoptions" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Ruby" value="14" />
+          <entry key="Ruby" value="46" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Ruby" value="2352" />
+          <entry key="Ruby" value="6185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rb" value="14" />
+          <entry key="rb" value="46" />
           <entry key="vmoptions" value="3" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="525">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib/byebug/attacher.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="392">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -129,6 +152,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestUnit Test Template" />
+        <option value="RSpec Test Template" />
+        <option value="Ruby Module Template" />
         <option value="Ruby Class Template" />
       </list>
     </option>
@@ -155,7 +180,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/sample_test.rb" />
-        <option value="$PROJECT_DIR$/test/fizz_buzz_test.rb" />
         <option value="$PROJECT_DIR$/lib/fizz_buzz.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/rubymine.vmoptions" />
         <option value="$PROJECT_DIR$/lib/rgb.rb" />
@@ -165,6 +189,20 @@
         <option value="$PROJECT_DIR$/lib/convert_length.rb" />
         <option value="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
         <option value="$PROJECT_DIR$/lib/convert_hash_syntax.rb" />
+        <option value="$PROJECT_DIR$/lib/ticket.rb" />
+        <option value="$PROJECT_DIR$/lib/gate.rb" />
+        <option value="$PROJECT_DIR$/test/gete_test.rb" />
+        <option value="$PROJECT_DIR$/lib/bank.rb" />
+        <option value="$PROJECT_DIR$/lib/team.rb" />
+        <option value="$PROJECT_DIR$/lib/deep_freezable.rb" />
+        <option value="$PROJECT_DIR$/test/deep_freezable_test.rb" />
+        <option value="$PROJECT_DIR$/lib/sample.rb" />
+        <option value="$PROJECT_DIR$/lib/regexp_checker.rb" />
+        <option value="$PROJECT_DIR$/test/effects_test.rb" />
+        <option value="$PROJECT_DIR$/lib/effects.rb" />
+        <option value="$PROJECT_DIR$/lib/word_synth.rb" />
+        <option value="$PROJECT_DIR$/test/word_synth_test.rb" />
+        <option value="$PROJECT_DIR$/test/fizz_buzz_test.rb" />
       </list>
     </option>
   </component>
@@ -186,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,11 +242,14 @@
               <item name="ruby-book" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ruby-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +257,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -240,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby-book">
+  <component name="RunManager" selected="Ruby.regexp_checker">
     <configuration name="fizzbuzz" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="ruby-book" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -259,7 +301,43 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'convert_hash_syntax_test': ruby-book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="regexp_checker" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-book" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/regexp_checker.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-book" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/sample.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run test  ruby-book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ruby-book" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -278,7 +356,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/convert_hash_syntax_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/deep_freezable_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -346,79 +424,21 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'fizz_buzz_test': ruby-book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="ruby-book" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/rgb_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Run test 'rgb_test': ruby-book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="ruby-book" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/rgb_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Ruby.fizzbuzz" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby-book" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby-book" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby-book (1)" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby-book" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby-book" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test  ruby-book" />
+      <item itemvalue="Ruby.sample" />
+      <item itemvalue="Ruby.regexp_checker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby-book" />
+        <item itemvalue="Ruby.regexp_checker" />
+        <item itemvalue="Ruby.sample" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test  ruby-book" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby-book" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby-book (1)" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby-book" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby-book" />
       </list>
     </recent_temporary>
   </component>
@@ -439,54 +459,59 @@
       <workItem from="1533137208340" duration="15150000" />
       <workItem from="1534920887459" duration="78000" />
       <workItem from="1534921135189" duration="381000" />
-      <workItem from="1534921562083" duration="16305000" />
+      <workItem from="1534921562083" duration="20697000" />
+      <workItem from="1535910854335" duration="11213000" />
+      <workItem from="1536496581977" duration="115000" />
+      <workItem from="1536496776955" duration="27000" />
+      <workItem from="1536497191792" duration="531000" />
+      <workItem from="1536506305095" duration="6381000" />
+      <workItem from="1536968693807" duration="6294000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book - 2018.08.15 at 17h 59m 21s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.06 at 18h 42m 43s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book - 2018.08.15 at 17h 59m 56s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.06 at 18h 51m 07s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book - 2018.08.15 at 18h 01m 03s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.06 at 18h 52m 09s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book_(1) - 2018.08.15 at 18h 03m 43s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book (1)" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.06 at 18h 52m 32s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book_(1) - 2018.08.15 at 18h 04m 09s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book (1)" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.06 at 18h 53m 37s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book_(1) - 2018.08.15 at 18h 06m 35s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book (1)" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.10 at 01h 14m 20s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'fizz_buzz_test'__ruby-book_(1) - 2018.08.15 at 18h 09m 00s.xml">
-      <configuration name="Run test 'fizz_buzz_test': ruby-book (1)" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.10 at 01h 14m 53s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_length_test'__ruby-book - 2018.08.25 at 00h 41m 29s.xml">
-      <configuration name="Run test 'convert_length_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.10 at 01h 16m 34s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_length_test'__ruby-book - 2018.08.25 at 00h 54m 30s.xml">
-      <configuration name="Run test 'convert_length_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.10 at 01h 17m 03s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby-book - 2018.08.26 at 15h 59m 29s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby-book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test__ruby-book - 2018.09.10 at 01h 21m 34s.xml">
+      <configuration name="Run test  ruby-book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34397000" />
+    <option name="totallyTimeSpent" value="63350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32841328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -502,33 +527,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399754" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/deep_freezable.rb</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/sample_test.rb">
@@ -545,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -611,17 +619,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ticket.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gete_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="24" lean-forward="true" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/team.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/minitest-5.10.1/lib/minitest.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/deep_freezable_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sample.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
+    <entry file="file://$PROJECT_DIR$/lib/deep_freezable.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="189">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/regexp_checker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/minitest-5.10.1/lib/minitest/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/effects_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/effects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/word_synth_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/word_synth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib/byebug/attacher.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
