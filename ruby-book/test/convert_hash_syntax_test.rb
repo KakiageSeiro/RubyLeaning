@@ -26,7 +26,7 @@ class ConvertHashSyntaxTest < Minitest::Test
 
     # 結果を出力
     actual = convert_hash_syntax(old_syntax)
-    puts actual
+    # puts actual
 
     # 検証
     assert_equal expected, actual

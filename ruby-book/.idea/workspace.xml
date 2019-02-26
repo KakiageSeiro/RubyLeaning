@@ -82,7 +82,7 @@
     <session id="-1979829085">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -105,7 +105,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Ruby" value="46" />
+          <entry key="Ruby" value="47" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -117,7 +117,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rb" value="46" />
+          <entry key="rb" value="47" />
           <entry key="vmoptions" value="3" />
           <entry key="yml" value="1" />
         </counts>
@@ -128,11 +128,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -165,6 +174,7 @@
       <find>gender: :female</find>
       <find>female</find>
       <find>}</find>
+      <find>age:</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,7 +197,6 @@
         <option value="$PROJECT_DIR$/lib/atmarkTest.rb" />
         <option value="$PROJECT_DIR$/test/convert_length_test.rb" />
         <option value="$PROJECT_DIR$/lib/convert_length.rb" />
-        <option value="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
         <option value="$PROJECT_DIR$/lib/convert_hash_syntax.rb" />
         <option value="$PROJECT_DIR$/lib/ticket.rb" />
         <option value="$PROJECT_DIR$/lib/gate.rb" />
@@ -203,6 +212,7 @@
         <option value="$PROJECT_DIR$/lib/word_synth.rb" />
         <option value="$PROJECT_DIR$/test/word_synth_test.rb" />
         <option value="$PROJECT_DIR$/test/fizz_buzz_test.rb" />
+        <option value="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
       </list>
     </option>
   </component>
@@ -465,7 +475,7 @@
       <workItem from="1536496776955" duration="27000" />
       <workItem from="1536497191792" duration="531000" />
       <workItem from="1536506305095" duration="6381000" />
-      <workItem from="1536968693807" duration="6294000" />
+      <workItem from="1536968693807" duration="7810000" />
     </task>
     <servers />
   </component>
@@ -502,12 +512,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63350000" />
+    <option name="totallyTimeSpent" value="64866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -710,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/effects_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -755,7 +759,14 @@
     <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
